@@ -93,6 +93,14 @@ nav a:hover::after {
   box-shadow: 0 0 25px var(--primary);
 }
 
+.hero img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  border: 3px solid #ff9800;
+}
 .hero-content {
   max-width: 600px;
 }
@@ -105,16 +113,14 @@ nav a:hover::after {
 }
 
 .btn {
-  padding: 0.7rem 1.5rem;
-  background: var(--primary);
-  color: #000;
-  border: none;
-  border-radius: 30px;
-  font-weight: 600;
+  display: inline-block;
+  background: #040203;
+  color: white;
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
   text-decoration: none;
-  transition: 0.3s ease;
 }
-
 .btn:hover {
   background: #00e0c1;
   transform: translateY(-2px);
@@ -291,8 +297,8 @@ body.light-mode {
   margin: auto;
   gap: 20px;
 }
-
- /* .about-photo {
+/* 
+ .about-photo {
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -330,3 +336,4 @@ footer .social-icons img:hover {
   transform: scale(1.2);
   filter: invert(0);
 }
+
