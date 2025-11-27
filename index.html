@@ -1,194 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anand Sahani | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
-  <!-- Vanilla Tilt -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anand Sahani | Portfolio</title>
 
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <div class="logo">Anand Sahani</div>
-    <nav>
-        
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#leetcode">LeetCode</a>
-      <a href="#contact">Contact</a>
-      <a href="resume.jpg" download class="resume-btn">Resume</a>
-    </nav>
-  </header>
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <div class="photo-frame" data-tilt>
-        <img src="profile.jpg" height="250px" alt="Anand Photo">
-      </div>
-      <h1>Hi, I'm <span>Anand Sahani</span></h1>
-      <p>Full Stack MERN Developer | Problem Solver</p>
-      <a href="resume.jpg"  class="btn">🌐 Download Resume</a>
-      <a href="https://www.linkedin.com/in/anand-sahani-ab1007262/" class="btn" target="_blank">💼 LinkedIn Profile</a>
-      <a href="https://github.com/Sahani-12" class="btn" target="_blank">🌐 GitHub Profile</a>
-     
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Anand<span>.dev</span></div>
+      <div class="menu-btn"><i class="fas fa-bars"></i></div>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#leetcode">LeetCode</a>
+        <a href="#contact">Contact</a>
+        <a href="Resume.pdf" download class="resume-btn"
+          >Resume <i class="fas fa-download"></i
+        ></a>
+      </nav>
+    </header>
 
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about">
-   <!-- <h2>About Me</h2> -->
-  <!-- <div class="about-container glass-card" data-aos="fade-up">
-    <img src="your-photo.jpg" alt="Anand Sahani" class="about-photo" /> --> 
-    <div class="about-text">
-      <h3>Hi, I'm Anand Sahani 👋</h3>
-      <p>
-        I’m a passionate <strong>Full Stack MERN Developer</strong> from India with a strong command in technologies like
-        <strong>HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, Java</strong>, and <strong>MySQL</strong>.
-        I enjoy building interactive, performance-optimized, and visually appealing web applications.
-      </p>
-      <p>
-        Currently pursuing my <strong>B.Tech in Computer Science and Engineering</strong>, I’m constantly working on improving
-        my problem-solving skills through platforms like LeetCode. I love taking on challenges, exploring new tech, and turning
-        ideas into live projects.
-      </p>
-      <p>
-        Let’s connect and build something awesome together!
-      </p>
-    </div>
-  </div>
-</section>
-  <!-- Skills Section -->
- <section id="skills">
-  <h2>Skills</h2>
-  <div class="skills-container">
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="50" />
-      <p>HTML5</p>
-    </div>
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="50" />
-      <p>CSS3</p>
-    </div>
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" />
-      <p>JavaScript</p>
-    </div>
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="50" />
-      <p>Bootstrap</p>
-    </div>
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="50" />
-      <p>Node.js</p>
-    </div>
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" width="50" />
-      <p>Express.js</p>
-    </div>
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="50" />
-      <p>MongoDB</p>
-    </div>
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js" width="50" />
-      <p>React.js</p>
-    </div>
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="50" />
-      <p>MySQL</p>
-    </div>
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" />
-      <p>Java</p>
-    </div>
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="50" />
-      <p>Git</p>
-    </div>
-    <div class="skill" data-tilt>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="50" />
-      <p>GitHub</p>
-    </div>
-  </div>
-</section>
-
-
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card" data-tilt>
-        <div class="card-front">
-          <h3>Spotify Clone</h3>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="photo-frame" data-tilt>
+          <img src="pic.jpg" alt="Anand Sahani" />
         </div>
-        <div class="card-back">
-          <p>Clone of Spotify using HTML, CSS, JS</p>
-          <a href="https://spotify-clone-eta-azure.vercel.app/">GitHub</a>
+        <div class="text-content">
+          <h3>Hello, I'm</h3>
+          <h1>Anand Sahani</h1>
+          <h2 class="typing-text">I am a <span class="auto-type"></span></h2>
+          <p>
+            Final Year CSE Student & Full Stack Developer building scalable MERN
+            applications and AI solutions.
+          </p>
+
+          <div class="hero-btns">
+            <a href="#projects" class="btn">View Work</a>
+            <a href="#contact" class="btn outline-btn">Contact Me</a>
+          </div>
+          <br />
+
+          <div class="social-links">
+            <a href="https://github.com/Sahani-12" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://linkedin.com/in/anand-sahani-ab1007262"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="mailto:anandsahani617@gmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
         </div>
       </div>
-      <div class="project-card" data-tilt>
-        <div class="card-front">
-          <h3>Amazon Clone</h3>
-        </div>
-        <div class="card-back">
-          <p>Amazon UI clone using modern web tech</p>
-          <a href="https://amazon-clone-liart-theta.vercel.app/">GitHub</a>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I am a passionate <strong>Full Stack Developer</strong> based in
+            Lucknow, currently pursuing my B.Tech in Computer Science. I
+            specialize in the
+            <strong>MERN Stack (MongoDB, Express, React, Node.js)</strong> and
+            have recently integrated <strong>Google Gemini AI</strong> into my
+            projects.
+          </p>
+          <p>
+            I love solving complex problems using
+            <strong>Data Structures & Algorithms</strong> and turning ideas into
+            live, deployed applications.
+          </p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- LeetCode Section -->
-  <section id="leetcode">
-  <h2>LeetCode Stats</h2>
-  <div id="leetcode-stats" class="glass-section">
-    <p>🧠 Problems Solved: <span id="total-solved">40+</span></p>
-    <p>✅ Easy:20+ <span id="easy-count">-</span> | 🟡 Medium:15+ <span id="medium-count">-</span> | 🔴 Hard:5+<span id="hard-count">-</span></p>
-    <a href="https://leetcode.com/u/Anandsahani617/" class="btn" target="_blank">View Profile</a>
-  </div>
-</section>
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-container">
+        <div class="skill" data-tilt>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+            width="50"
+            alt="Java"
+          />
+          <p>Java</p>
+        </div>
+        <div class="skill" data-tilt>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            width="50"
+            alt="JS"
+          />
+          <p>JavaScript</p>
+        </div>
+        <div class="skill" data-tilt>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            width="50"
+            alt="React"
+          />
+          <p>React.js</p>
+        </div>
+        <div class="skill" data-tilt>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+            width="50"
+            alt="Node"
+          />
+          <p>Node.js</p>
+        </div>
+        <div class="skill" data-tilt>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+            width="50"
+            alt="Express"
+          />
+          <p>Express.js</p>
+        </div>
+        <div class="skill" data-tilt>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+            width="50"
+            alt="Mongo"
+          />
+          <p>MongoDB</p>
+        </div>
+        <div class="skill" data-tilt>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+            width="50"
+            alt="Tailwind"
+          />
+          <p>Tailwind</p>
+        </div>
+        <div class="skill" data-tilt>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            width="50"
+            alt="Git"
+          />
+          <p>Git</p>
+        </div>
+      </div>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form action="https://formspree.io/f/yourFormID" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card" data-tilt>
+          <div class="card-front">
+            <h3>ChatBoat AI</h3>
+            <p class="tech-tag">MERN + Gemini API</p>
+          </div>
+          <div class="card-back">
+            <p>
+              Real-time AI Chatbot with history tracking and Google Gemini
+              integration.
+            </p>
+            <div class="links">
+              <a href="https://chat-boat-six.vercel.app/" target="_blank"
+                >Live Demo</a
+              >
+              <a href="https://github.com/Sahani-12/ChatBoat" target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
 
-  <!-- Footer -->
-  <footer>
-    <div class="social-icons">
-      <a href="https://github.com/Sahani-12" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/in/anand-sahani-ab1007262" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:anandsahani617@gmail.com"><i class="fas fa-envelope"></i></a>
-      <a href="https://leetcode.com/u/Anandsahani617/" target="_blank"><i class="fas fa-code"></i></a>
-    </div>
-    
+        <div class="project-card" data-tilt>
+          <div class="card-front">
+            <h3>Wanderlust</h3>
+            <p class="tech-tag">Full Stack Rental App</p>
+          </div>
+          <div class="card-back">
+            <p>Airbnb-style marketplace with Authentication, CRUD & Reviews.</p>
+            <div class="links">
+              <a
+                href="https://wanderlustproject-5ykg.onrender.com/listings"
+                target="_blank"
+                >Live Demo</a
+              >
+              <a href="https://github.com/Sahani-12" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
 
-     <div class="social-icons">
-    <a href="https://www.instagram.com/your_instagram_username" target="_blank" title="Instagram">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" width="24" />
-    </a>
-    <a href="https://www.facebook.com/your_facebook_username" target="_blank" title="Facebook">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" width="24" />
-    </a>
-  </div>
-  <p>© 2025 Anand Sahani. All rights reserved.</p>
-  </footer>
+        <div class="project-card" data-tilt>
+          <div class="card-front">
+            <h3>TaskFlow</h3>
+            <p class="tech-tag">React Trello Clone</p>
+          </div>
+          <div class="card-back">
+            <p>Kanban Task Manager with Drag & Drop and Local Storage.</p>
+            <div class="links">
+              <a href="https://trello-wv9o.vercel.app/" target="_blank"
+                >Live Demo</a
+              >
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
 
-  <script src="script.js"></script>
-</body>
+        <div class="project-card" data-tilt>
+          <div class="card-front">
+            <h3>Spotify Clone</h3>
+            <p class="tech-tag">Frontend UI</p>
+          </div>
+          <div class="card-back">
+            <p>Responsive Music Player UI built with HTML, CSS & JS.</p>
+            <div class="links">
+              <a
+                href="https://spotify-clone-eta-azure.vercel.app/"
+                target="_blank"
+                >Live Demo</a
+              >
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-tilt>
+          <div class="card-front">
+            <h3>Amazon Clone</h3>
+            <p class="tech-tag">E-Commerce UI</p>
+          </div>
+          <div class="card-back">
+            <p>Pixel-perfect frontend clone of Amazon website.</p>
+            <div class="links">
+              <a
+                href="https://amazon-clone-liart-theta.vercel.app/"
+                target="_blank"
+                >Live Demo</a
+              >
+              <a href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-tilt>
+          <div class="card-front">
+            <h3>My Portfolio</h3>
+            <p class="tech-tag">HTML/CSS/JS</p>
+          </div>
+          <div class="card-back">
+            <p>You are looking at it! Fully responsive personal website.</p>
+            <div class="links">
+              <a href="#" target="_blank">You are here</a>
+              <a href="https://github.com/Sahani-12" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="leetcode">
+      <h2>LeetCode Stats</h2>
+      <div id="leetcode-stats" class="glass-section">
+        <p>Loading stats...</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="social-icons-footer">
+        <a href="https://github.com/Sahani-12" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://linkedin.com/in/anand-sahani-ab1007262" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="mailto:anandsahani617@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+      <p>© 2025 Anand Sahani. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
